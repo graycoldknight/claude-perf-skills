@@ -20,7 +20,7 @@ Symlink each skill directory into your Claude Code skills folder:
 
 ```bash
 # Clone (or add as a submodule to your project)
-git clone https://github.com/youruser/claude-perf-skills.git ~/claude-perf-skills
+git clone https://github.com/graycoldknight/claude-perf-skills.git ~/claude-perf-skills
 
 # Symlink all skills
 for skill in ~/claude-perf-skills/perf-*/; do
@@ -32,7 +32,7 @@ Or add as a git submodule in your project:
 
 ```bash
 cd your-project
-git submodule add https://github.com/youruser/claude-perf-skills.git skills/perf
+git submodule add https://github.com/graycoldknight/claude-perf-skills.git skills/perf
 # Then symlink from ~/.claude/skills/ as above
 ```
 
